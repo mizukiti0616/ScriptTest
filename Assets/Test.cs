@@ -47,6 +47,14 @@ public class Test : MonoBehaviour
         points[3] = 10;
         points[4] = 80;
 
+        for (int i = 0; i < 5; i++)
+        {
+            Debug.Log(points[i]);
+        }
+
+
+
+
         for (int i = 5-1; i >= 0; i--)
         {
 
