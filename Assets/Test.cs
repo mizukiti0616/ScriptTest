@@ -26,7 +26,8 @@ public class Boss
 
 public class Test : MonoBehaviour
 {
-    void Start () {
+    void Start()
+    {
         Boss lastboss = new Boss();
 
         for (int Magic = 1; Magic <= 10; Magic++)
@@ -35,13 +36,26 @@ public class Test : MonoBehaviour
         }
 
 
-            lastboss.Magic();
+        lastboss.Magic();
 
+        int[] points = new int[5];
+
+       
+        points[0] = 30;
+        points[1] = 20;
+        points[2] = 50;
+        points[3] = 10;
+        points[4] = 80;
+
+        for (int i = 5-1; i >= 0; i--)
+        {
+
+            Debug.Log(points[i]);
+
+
+        }
         
-
-
     }
-	
 	// Update is called once per frame
 	void Update () {
 		
